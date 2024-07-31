@@ -5,12 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+	"deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.0",
     "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
+    "gh-pages": "^6.1.1",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },
